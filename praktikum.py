@@ -28,7 +28,9 @@ fibonacci(n)
 def volume_tabung(jari_jari, tinggi):
     return 3.14 * pow(jari_jari, 2) * tinggi
 
-print(volume_tabung(10, 10))
+jari_jari = int(input("Masukan nilai jari-jari: "))
+tinggi = int(input("Masukan nilai tinggi: "))
+print(volume_tabung(jari_jari, tinggi))
 
 # 3. Menghitung Nilai Total dan Rata-Rata
 input_angka = []
