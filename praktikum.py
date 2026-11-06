@@ -19,7 +19,8 @@ def fibonacci(n, a = 0, b = 1):
         print(a)
         return fibonacci(n-1,b,a+b)
 
-fibonacci(7)
+n = int(input("Masukan nilai suku fibonacci: "))
+fibonacci(n)
 
 # 0, 1, 1, 2, 3, 5, 8, 13
 
